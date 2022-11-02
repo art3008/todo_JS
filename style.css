@@ -15,12 +15,13 @@ body {
 
 .container {
     margin: auto;
-
+    padding: 20px;
+    color: white;
 }
 
 #usrInp{
-    border-radius: 5px;
-    height: 30px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     border: none;
 }
 
@@ -31,4 +32,37 @@ body {
     flex-wrap: wrap;
     min-width: 70px;
     padding: 0 20px;
+}
+
+.user_input{
+    margin-top: 2px;
+    width: 350px;
+    text-align: center;
+}
+
+
+.user_input input {
+    width: 75%;
+    outline: none;
+    padding: 8px;
+    border: 1px solid lightgray;
+    margin-right: -5px;
+}
+.user_input button {
+    cursor: pointer;
+    padding: 7px;
+    width: fit-content;
+    color: black;
+    transition: 1s;
+    outline: none;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
