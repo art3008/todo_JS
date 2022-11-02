@@ -5,9 +5,7 @@ let boo = true
 
 usrInp.addEventListener('keydown', (event) => {
     if(event.key == 'Enter'){
-        usrInp.value.length === 0 ? alert('Поле ввода пустое') : add()
-        
-        
+        usrInp.value.length === 0 ? alert('Поле ввода пустое') : add()  
     }
 })
 
@@ -30,7 +28,6 @@ function add() {
     divBtn.appendChild(btnDone)
     todo.appendChild(div)
 
-    localStorage.setItem('title',h2.innerText)
 
     btnRemove.addEventListener('click', ()=> {
         div.remove()
