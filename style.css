@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(to right, #E22865, #37ADCD);
+}
+
+.container {
+    margin: auto;
+
+}
+
+#usrInp{
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 70px;
+    padding: 0 20px;
+}
