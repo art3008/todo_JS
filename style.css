@@ -66,3 +66,27 @@ section .container {
     align-items: center;
     justify-content: center;
 }
+
+.item {
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+    padding: 1rem;
+    color: #454545;
+    margin-top: 10px;
+    font-size: 1rem;
+    background-color: white;
+    border: 1px solid lightgray;
+    text-transform: uppercase;
+    justify-content: space-between;
+
+}
+
+.divBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 30px;
+}
